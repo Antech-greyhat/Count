@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(112, 229, 229);
+    margin: auto;
+    display: block;
+}
+#countLabel{
+    font-family: fantasy;
+    padding: 20px;
+    display: block;
+    margin-left: 200px;
+    font-size: 40px;
+}
+#increaseBtn{
+    font-family: cursive;
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: beige;
+    margin-left: 150px;
+    transition: ease-in-out 0.3s;
+}
+#resetBtn{
+    font-family: cursive;
+    padding: 15px;
+    background-color: rgb(60, 71, 71);
+    border-radius: 10px;
+    border-color: rgb(203, 203, 129);
+     transition: ease-in-out 0.3s;
+}
+#decreaseBtn{
+    font-family: cursive;
+    padding: 15px;
+    background-color: rgb(199, 147, 197);
+    border-radius: 10px;
+    border-color: lavenderblush;
+     transition: ease-in-out 0.3s;
+}
+#increaseBtn:hover{
+    color: bisque;
+    background-color: rgb(125, 109, 140);
+    transform: translate(3px);
+}
+#decreaseBtn:hover{
+    color: bisque;
+    background-color: rgb(82, 82, 125);
+    transform: translate(3px);
+}
+#resetBtn:hover{
+    color: bisque;
+    background-color: rgb(42, 25, 57);
+    transform: translate(3px);
+    border-left: blue;
+}
