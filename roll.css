@@ -6,11 +6,7 @@
 
 body{
     background-color: rgb(112, 229, 229);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    text-align: center;
     padding: 20px;
 }
 #countLabel{
@@ -18,6 +14,7 @@ body{
     font-size: 4rem;
     text-align: center;
     margin-bottom: 20px;
+    display: block;
 }
 #increaseBtn{
     font-family: cursive;
@@ -26,8 +23,9 @@ body{
     border-radius: 10px;
     border-color: beige;
     transition: ease-in-out 0.3s;
-    margin: 5px 0;
+    margin: 0 10px;
     font-size: 1.2rem;
+    display: inline-block;
 }
 #resetBtn{
     font-family: cursive;
@@ -36,8 +34,9 @@ body{
     border-radius: 10px;
     border-color: rgb(203, 203, 129);
     transition: ease-in-out 0.3s;
-    margin: 5px 0;
+    margin: 0 10px;
     font-size: 1.2rem;
+    display: inline-block;
 }
 #decreaseBtn{
     font-family: cursive;
@@ -46,8 +45,9 @@ body{
     border-radius: 10px;
     border-color: lavenderblush;
     transition: ease-in-out 0.3s;
-    margin: 5px 0;
+    margin: 0 10px;
     font-size: 1.2rem;
+    display: inline-block;
 }
 #increaseBtn:hover{
     color: bisque;
@@ -73,6 +73,6 @@ body{
     #increaseBtn, #resetBtn, #decreaseBtn {
         padding: 10px 20px;
         font-size: 1rem;
-        margin: 2px 0;
+        margin: 0 5px;
     }
 }
